@@ -6,7 +6,7 @@
 - Temas IAs:
   - [Artificial Analysis](https://artificialanalysis.ai) para conocer diferentes modelos y sus capacidades
   - “ChatGPTs” para apps web: [bolt.new](https://bolt.new/), [v0.dev](https://v0.dev), [lovable](https://lovable.dev/), etc
-  - Editores con IA para probar: [Cursor](https://cursor.com), [Copilot](https://github.com/features/copilot), [Zed](https://zed.dev/), [Trae](https://www.trae.ai/)
+  - Editores con IA para probar: [Cursor](https://cursor.com), [Copilot](https://github.com/features/copilot), [Zed](https://zed.dev/), [Windsurf](https://codeium.com/windsurf), [Trae](https://www.trae.ai/)
   - [Model Context Protocol](https://modelcontextprotocol.io/introduction) y su documentación en [Cursor](https://docs.cursor.com/context/model-context-protocol)
   - Como el [CEO de builder.io (IA + Figma y CMS) usa Cursor](https://www.linkedin.com/video/live/urn:li:ugcPost:7303840329999208448/)
   - Casos de usos de [Convex con MCP](https://stack.convex.dev/convex-mcp-server)
