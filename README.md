@@ -25,17 +25,17 @@ Este articulo de SO que habla de [_Reactive Programing_](https://stackoverflow.c
 
 ### Tarea 2: Web Assembly y PWAs
 
-TODO: 7 abril
+<!-- TODO: 7 abril -->
 
 ### Tarea 3: Frameworks Vue y Svelte
 
-TODO: 7 mayo
+<!-- TODO: 7 mayo -->
 
 <!-- Buscar la historia de Vue y su ecosistema, Svelte y runas -->
 
 ### Tarea 4: Web Components
 
-TODO: 14 mayo
+<!-- TODO: 14 mayo -->
 
 <!-- Añadir contraversia con Solid y Svelte -->
 
@@ -43,4 +43,4 @@ TODO: 14 mayo
 
 <!-- AÑadir conversaciones de diferentes tipos de aplicaciones web -->
 
-TODO: 16 de mayo
+<!-- TODO: 16 de mayo -->
