@@ -13,7 +13,7 @@
 
 ## Recursos recomendados a revisar para las tareas
 
-Las tareas son publicas, les recomendamos revisar repositorios de semestres pasados.
+Las tareas son públicas, les recomendamos revisar repositorios de semestres pasados.
 
 ### Tarea 1: JavaScript Funcional
 
