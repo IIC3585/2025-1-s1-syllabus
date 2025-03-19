@@ -15,6 +15,9 @@
 
 Las tareas son públicas, les recomendamos revisar repositorios de semestres pasados.
 
+Deben tener todo el material que usen en sus repositorios, y subido los demos para que puedan ser probados.
+Consideren que más de la mitad del trabajo se califica en ir “más allá” (calidad, elegancia, mantenibilidad, documentación), poder explicar bien el diseño e implementación, y mostrar aspectos interesantes relacionados.
+
 ### Tarea 1: JavaScript Funcional
 
 > Deploy recomendado: [Vite vanilla-ts](https://vite.dev/guide/#scaffolding-your-first-vite-project) y [GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages)
