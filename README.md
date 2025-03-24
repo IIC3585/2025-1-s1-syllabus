@@ -20,7 +20,10 @@ Consideren que más de la mitad del trabajo se califica en ir “más allá” (
 
 ### Tarea 1: JavaScript Funcional
 
-> Deploy recomendado: [Vite vanilla-ts](https://vite.dev/guide/#scaffolding-your-first-vite-project) y [GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages)
+> Deploy recomendado: [Vite vanilla-ts](https://vite.dev/guide/#scaffolding-your-first-vite-project) y [GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages). Si quieren correrlo en el terminal, [Bun](https://bun.sh/).
+
+La charla [Functional Programming Design Patterns](https://fsharpforfunandprofit.com/fppatterns/) (link a [YouTube](https://youtu.be/srQt1NAHYC0)), la charla [Functional programming patterns for the non-mathematician](https://youtu.be/AvgwKjTPMmM), y el post [Lazy, composable, and modular JavaScript](https://codewords.recurse.com/issues/four/lazy-composable-and-modular-javascript).
+
 
 [Effect](https://effect.website/) es una librería moderna que usa varios patrones funcionales, que ha ganado tracción considerable.
 La librería [`fp-ts`](https://github.com/gcanti/fp-ts), enfocada principalmente en primitivos de estilo funcional, se [sumó a Effect](https://dev.to/effect/a-bright-future-for-effect-455m).
