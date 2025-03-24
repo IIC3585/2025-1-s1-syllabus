@@ -28,7 +28,7 @@ La librería [`fp-ts`](https://github.com/gcanti/fp-ts), enfocada principalmente
 [Gleam](https://gleam.run/) es un lenguaje funcional que corre en [Erlang](https://www.erlang.org/).
 Es un lenguaje funcional inspirado en [Elixir](https://elixir-lang.org/), y permite ser compilado a JavaScript.
 
-[RxJS](https://rxjs.dev/), librería enfocada al manejo de eventos, que fue vien usado en [Angular](https://angular.dev/ecosystem/rxjs-interop/output-interop).
+[RxJS](https://rxjs.dev/), librería enfocada al manejo de eventos, que fue bien usado en [Angular](https://angular.dev/ecosystem/rxjs-interop/output-interop).
 [Loadash](https://lodash.com/) es una de las primeras grandes librerías de JS que incluía [patrones funcionales](https://github.com/lodash/lodash/wiki/fp-guide).
 
 Este articulo de SO que habla de [_Reactive Programing_](https://stackoverflow.com/q/1028250), que es tangencial a la programación funcional, y tiene ideas que ha tomado frameworks como Svelte.
