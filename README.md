@@ -1,5 +1,7 @@
 # Diseño Avanzado de Aplicaciones Web
 
+Estos recursos son complementarios. Las clases están subidas en Canvas.
+
 ## Recursos generales
 
 - [Evan You - Frontend tooling, past and future](https://www.youtube.com/watch?v=5mn3EpWCcJs&t=16343s)
@@ -15,15 +17,17 @@
 
 Las tareas son públicas, les recomendamos revisar repositorios de semestres pasados.
 
-Deben tener todo el material que usen en sus repositorios, y subido los demos para que puedan ser probados.
-Consideren que más de la mitad del trabajo se califica en ir “más allá” (calidad, elegancia, mantenibilidad, documentación), poder explicar bien el diseño e implementación, y mostrar aspectos interesantes relacionados.
+> [!TIP]
+> 
+> Deben tener **todo** el material que usen en sus repositorios, y subido los demos para que puedan ser probados.
+> 
+> Consideren que **más de la mitad del trabajo se califica en ir “más allá”** (calidad, elegancia, mantenibilidad, documentación), poder explicar bien el diseño e implementación, y mostrar aspectos interesantes relacionados.
 
 ### Tarea 1: JavaScript Funcional
 
 > Deploy recomendado: [Vite vanilla-ts](https://vite.dev/guide/#scaffolding-your-first-vite-project) y [GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages). Si quieren correrlo en el terminal, [Bun](https://bun.sh/).
 
 La charla [Functional Programming Design Patterns](https://fsharpforfunandprofit.com/fppatterns/) (link a [YouTube](https://youtu.be/srQt1NAHYC0)), la charla [Functional programming patterns for the non-mathematician](https://youtu.be/AvgwKjTPMmM), y el post [Lazy, composable, and modular JavaScript](https://codewords.recurse.com/issues/four/lazy-composable-and-modular-javascript).
-
 
 [Effect](https://effect.website/) es una librería moderna que usa varios patrones funcionales, que ha ganado tracción considerable.
 La librería [`fp-ts`](https://github.com/gcanti/fp-ts), enfocada principalmente en primitivos de estilo funcional, se [sumó a Effect](https://dev.to/effect/a-bright-future-for-effect-455m).
@@ -34,7 +38,7 @@ Es un lenguaje funcional inspirado en [Elixir](https://elixir-lang.org/), y perm
 [RxJS](https://rxjs.dev/), librería enfocada al manejo de eventos, que fue bien usado en [Angular](https://angular.dev/ecosystem/rxjs-interop/output-interop).
 [Loadash](https://lodash.com/) es una de las primeras grandes librerías de JS que incluía [patrones funcionales](https://github.com/lodash/lodash/wiki/fp-guide).
 
-Este articulo de SO que habla de [_Reactive Programing_](https://stackoverflow.com/q/1028250), que es tangencial a la programación funcional, y tiene ideas que ha tomado frameworks como Svelte.
+Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com/q/1028250), que es tangencial a la programación funcional, y tiene ideas que ha tomado frameworks como Svelte.
 
 ### Tarea 2: Web Assembly y PWAs
 
