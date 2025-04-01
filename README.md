@@ -18,9 +18,9 @@ Estos recursos son complementarios. Las clases están subidas en Canvas.
 Las tareas son públicas, les recomendamos revisar repositorios de semestres pasados.
 
 > [!TIP]
-> 
+>
 > Deben tener **todo** el material que usen en sus repositorios, y subido los demos para que puedan ser probados.
-> 
+>
 > Consideren que **más de la mitad del trabajo se califica en ir “más allá”** (calidad, elegancia, mantenibilidad, documentación), poder explicar bien el diseño e implementación, y mostrar aspectos interesantes relacionados.
 
 ### Tarea 1: JavaScript Funcional
@@ -28,6 +28,8 @@ Las tareas son públicas, les recomendamos revisar repositorios de semestres pas
 > Deploy recomendado: [Vite vanilla-ts](https://vite.dev/guide/#scaffolding-your-first-vite-project) y [GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages). Si quieren correrlo en el terminal, [Bun](https://bun.sh/).
 
 La charla [Functional Programming Design Patterns](https://fsharpforfunandprofit.com/fppatterns/) (link a [YouTube](https://youtu.be/srQt1NAHYC0)), la charla [Functional programming patterns for the non-mathematician](https://youtu.be/AvgwKjTPMmM), y el post [Lazy, composable, and modular JavaScript](https://codewords.recurse.com/issues/four/lazy-composable-and-modular-javascript).
+
+Ejemplos de [Left y Right](https://effect.website/play/#d7103f0ecade), y del [patrón Effect](https://effect.website/play/#d4de9a1af80b) para el manejo de errores.
 
 [Effect](https://effect.website/) es una librería moderna que usa varios patrones funcionales, que ha ganado tracción considerable.
 La librería [`fp-ts`](https://github.com/gcanti/fp-ts), enfocada principalmente en primitivos de estilo funcional, se [sumó a Effect](https://dev.to/effect/a-bright-future-for-effect-455m).
@@ -42,7 +44,41 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 
 ### Tarea 2: Web Assembly y PWAs
 
-<!-- TODO: 7 abril -->
+> Deploy recomendado: [Vite vanilla-ts](https://vite.dev/guide/#scaffolding-your-first-vite-project) (o un framework) y [GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages).
+> Notificaciones: [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging).
+> WASM: Rust con [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen?tab=readme-ov-file#readme)
+
+#### Rust y WASM
+
+- La [guia de wasm-bindgen](https://rustwasm.github.io/docs/wasm-bindgen/).
+- Correrlo en vite con [`vite-plugin-wasm`](https://github.com/aleclarson/vite-plugin-wasm).
+- Tutoriales de [mozilla](https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Rust_to_Wasm), videos tutoriales rápidos [sin bundler](https://youtu.be/nW71Mlbmxt8) y [con Vite](https://youtu.be/8zDYoprO358).
+
+#### Rust, WASM y procesamiento de imagenes
+
+- La crate [`image`](https://crates.io/crates/image), muy usada para procesamiento de imagenes.
+- El [proyecto Photon](https://silvia-odwyer.github.io/photon), editor simple de imagenes en WASM.
+- El tutorial [Image Processing With Rust, WebAssembly, Js and Html](https://medium.com/@krishrathor18/image-processing-with-rust-webassembly-js-and-html-613d08ea7354)
+- Proyectos más pequeños como [imageproc-website](https://github.com/arthmis/imageproc-website) y [wasm-image](https://github.com/peerigon/wasm-image).
+
+#### PWA general
+
+- [Documentación de mozilla](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+- [Learn PWA](https://web.dev/learn/pwa) y [Explore Progressive Web Apps](https://web.dev/explore/progressive-web-apps) de Google.
+- El [listado de campos disponible en el manifest](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest).
+- Trabajar con Web Workers: [Workbox](https://developer.chrome.com/docs/workbox) y su fork [Serwist](https://serwist.pages.dev/), que tiene adaptadores a frameworks.
+
+#### PWA en frameworks
+
+- [Vite PWA](https://vite-pwa-org.netlify.app/guide/), que se adapta con Workbox con frameworks basados en Vite como SvelteKit y Nuxt.
+- [NextJS](https://nextjs.org) con su [configuración del manifest](https://nextjs.org/docs/app/building-your-application/configuring/progressive-web-apps) y junto a [Serwist](https://serwist.pages.dev/docs/next/getting-started).
+
+#### PWA Showcase
+
+- [El showcase del proyecto Fugu de Chrome](https://developer.chrome.com/docs/capabilities/fugu-showcase).
+- Varios docs de Learn PWA: [Integrarse al sistema operativo](https://web.dev/learn/pwa/os-integration), [App Shortcuts y Splash Screens](https://web.dev/learn/pwa/enhancements), [Diseño de la App](https://web.dev/learn/pwa/app-design).
+- [Nueva API propuesta por Apple para notificaciones push declarativas](https://webkit.org/blog/16535/meet-declarative-web-push/). Es buena lectura para entender por qué Apple no le gustó como estaban implementadas las notificaciones en JS.
+- [`idb`](https://github.com/jakearchibald/idb), un wraper de IndexedDB muy usado.
 
 ### Tarea 3: Frameworks Vue y Svelte
 
