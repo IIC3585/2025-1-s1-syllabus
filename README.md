@@ -48,11 +48,11 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 >
 > Notificaciones: [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging).
 >
-> WASM: Rust con [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen?tab=readme-ov-file#readme)
+> WASM: Rust con [wasm-pack](https://github.com/rustwasm/wasm-pack)
 
 #### Rust y WASM
 
-- La [guia de wasm-bindgen](https://rustwasm.github.io/docs/wasm-bindgen/).
+- La [guia de `wasm-bindgen`](https://rustwasm.github.io/docs/wasm-bindgen/) (lo que se encarga del build) y la de [`wasm-pack`](https://rustwasm.github.io/wasm-pack/book/introduction) (lo que se encarga de empaquetado)
 - Correrlo en vite con [`vite-plugin-wasm`](https://github.com/aleclarson/vite-plugin-wasm).
 - Tutoriales de [mozilla](https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Rust_to_Wasm), videos tutoriales rápidos [sin bundler](https://youtu.be/nW71Mlbmxt8) y [con Vite](https://youtu.be/8zDYoprO358).
 
@@ -70,17 +70,17 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 - El [listado de campos disponible en el manifest](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest).
 - Trabajar con Web Workers: [Workbox](https://developer.chrome.com/docs/workbox) y su fork [Serwist](https://serwist.pages.dev/), que tiene adaptadores a frameworks.
 
-#### PWA en frameworks
-
-- [Vite PWA](https://vite-pwa-org.netlify.app/guide/), que se adapta con Workbox con frameworks basados en Vite como SvelteKit y Nuxt.
-- [NextJS](https://nextjs.org) con su [configuración del manifest](https://nextjs.org/docs/app/building-your-application/configuring/progressive-web-apps) y junto a [Serwist](https://serwist.pages.dev/docs/next/getting-started).
-
 #### PWA Showcase
 
 - [El showcase del proyecto Fugu de Chrome](https://developer.chrome.com/docs/capabilities/fugu-showcase).
 - Varios docs de Learn PWA: [Integrarse al sistema operativo](https://web.dev/learn/pwa/os-integration), [App Shortcuts y Splash Screens](https://web.dev/learn/pwa/enhancements), [Diseño de la App](https://web.dev/learn/pwa/app-design).
 - [Nueva API propuesta por Apple para notificaciones push declarativas](https://webkit.org/blog/16535/meet-declarative-web-push/). Es buena lectura para entender por qué Apple no le gustó como estaban implementadas las notificaciones en JS.
 - [`idb`](https://github.com/jakearchibald/idb), un wraper de IndexedDB muy usado.
+
+#### PWA en frameworks
+
+- [Vite PWA](https://vite-pwa-org.netlify.app/guide/), que se adapta con Workbox con frameworks basados en Vite como SvelteKit y Nuxt.
+- [NextJS](https://nextjs.org) con su [configuración del manifest](https://nextjs.org/docs/app/building-your-application/configuring/progressive-web-apps) y junto a [Serwist](https://serwist.pages.dev/docs/next/getting-started).
 
 ### Tarea 3: Frameworks Vue y Svelte
 
