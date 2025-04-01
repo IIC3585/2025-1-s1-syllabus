@@ -45,7 +45,9 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 ### Tarea 2: Web Assembly y PWAs
 
 > Deploy recomendado: [Vite vanilla-ts](https://vite.dev/guide/#scaffolding-your-first-vite-project) (o un framework) y [GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages).
+>
 > Notificaciones: [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging).
+>
 > WASM: Rust con [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen?tab=readme-ov-file#readme)
 
 #### Rust y WASM
