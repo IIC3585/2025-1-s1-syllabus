@@ -60,9 +60,6 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 
 - La crate [`image`](https://crates.io/crates/image), muy usada para procesamiento de imagenes.
 - El [proyecto Photon](https://silvia-odwyer.github.io/photon), editor simple de imagenes en WASM.
-<!--
-- El tutorial [Image Processing With Rust, WebAssembly, Js and Html](https://medium.com/@krishrathor18/image-processing-with-rust-webassembly-js-and-html-613d08ea7354)
-  -->
 - Proyectos más pequeños como [imageproc-website](https://github.com/arthmis/imageproc-website) y [wasm-image](https://github.com/peerigon/wasm-image).
 
 #### WASM Showcase
