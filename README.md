@@ -64,7 +64,8 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 
 #### WASM Showcase
 
-- [WebAssembly proposals](https://github.com/WebAssembly/proposals). El que se destaca más y que probablemente usen, es un polyfil de [ESModule Integration](https://github.com/WebAssembly/esm-integration).
+- [La página de WebAssembly](https://webassembly.org/), especialmente el [FAQ](https://webassembly.org/docs/faq/).
+- [WebAssembly proposals](https://webassembly.org/features/). El que se destaca más y que probablemente usen, es un polyfil de [ESModule Integration](https://github.com/WebAssembly/esm-integration).
 
 #### PWA general
 
