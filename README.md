@@ -5,6 +5,9 @@ Estos recursos son complementarios. Las clases están subidas en Canvas.
 ## Recursos generales
 
 - [Evan You - Frontend tooling, past and future](https://www.youtube.com/watch?v=5mn3EpWCcJs&t=16343s)
+- CSS:
+  - Nueva propuesta de layouts en CSS: [item-flow](https://webkit.org/blog/16587/item-flow-part-1-a-new-unified-concept-for-layout/)
+  - [Pensando en StyleX](https://stylexjs.com/docs/learn/thinking-in-stylex/) (sistema que usa META)
 - Temas IAs:
   - [Artificial Analysis](https://artificialanalysis.ai) para conocer diferentes modelos y sus capacidades
   - “ChatGPTs” para apps web: [bolt.new](https://bolt.new/), [v0.dev](https://v0.dev), [lovable](https://lovable.dev/), etc
