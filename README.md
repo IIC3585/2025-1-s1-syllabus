@@ -120,11 +120,11 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 
 ### Tarea 5: Frameworks para SSR
 
-### Astro
+#### Astro
 
 - Astro docs: [Why Astro?](https://docs.astro.build/en/concepts/why-astro/)
 
-### React Server Components
+#### React Server Components
 
 - [“Mind the Gap”](https://youtu.be/zqhE-CepH2g?si=deRmRFm5y64u15VF) de Ryan Florence (creador React Router / Remix)
 - Dan Abramov (React):
