@@ -91,18 +91,46 @@ Este articulo de SO que habla de [Reactive Programing](https://stackoverflow.com
 
 ### Tarea 3: Frameworks Vue y Svelte
 
-<!-- TODO: 7 mayo -->
+> Deploy recomendado: Cloudflare Workers, Vercel, Netlify. Algo que funcione con múltiples proyectos en el mismo repositorio.
 
-<!-- Buscar la historia de Vue y su ecosistema, Svelte y runas -->
+#### Vue
+
+- [Tutorial](https://vuejs.org/tutorial)
+- [Vue.js: The Documentary](https://youtu.be/OrxmtDw4pVI)
+
+#### Svelte
+
+- [Tutorial](https://svelte.dev/tutorial)
+- [Svelte Origins: A JavaScript Documentary](https://youtu.be/kMlkCYL9qo0)
+- Rich Harris:
+  - [Rethinking reactivity](https://youtu.be/AdNJ3fydeao)
+  - [Introduction to Runes](https://youtu.be/RVnxF3j3N8U)
+
+#### Otros
+
+- [Monorepo con Vue y Svelte](https://github.com/IIC3585/2025-1-s1-pnpm-vue-svelte)
 
 ### Tarea 4: Web Components
 
-<!-- TODO: 14 mayo -->
-
-<!-- Añadir contraversia con Solid y Svelte -->
+- Frameworks: [Lit](https://lit.dev/), [Stencil](https://stenciljs.com/)
+- [Why Web Components](https://designsystem.webstandards.ca.gov/why-web-components/index.html)
+- [MicroFrontends](https://micro-frontends.org/), un estilo de arquitectura web que suele usar Web Components.
+- [Web components demystified](https://css-tricks.com/web-components-demystified/)
+- Ryan Carniato (Solid.js): [Web Components Are Not the Future](https://dev.to/ryansolid/web-components-are-not-the-future-48bh)
 
 ### Tarea 5: Frameworks para SSR
 
-<!-- AÑadir conversaciones de diferentes tipos de aplicaciones web -->
+### Astro
 
-<!-- TODO: 16 de mayo -->
+- Astro docs: [Why Astro?](https://docs.astro.build/en/concepts/why-astro/)
+
+### React Server Components
+
+- [“Mind the Gap”](https://youtu.be/zqhE-CepH2g?si=deRmRFm5y64u15VF) de Ryan Florence (creador React Router / Remix)
+- Dan Abramov (React):
+  - Los [blogs de RSC](https://overreacted.io/)
+  - [Data Fetching with React Server Components](https://youtu.be/TQQPAU21ZUw), y por qué Meta llegó a la creación de estos.
+- [Making sense of React Server Components](http://joshwcomeau.com/react/server-components/) de Josh Comeau
+- Frameworks: [Next.js](https://nextjs.org), [RedwoodSDK](https://rwsdk.com/), [Expo](https://docs.expo.dev/guides/server-components/), [React Router (Remix)](https://remix.run/blog/rsc-preview)
+
+<!-- Añadir conversaciones de diferentes tipos de aplicaciones web -->
